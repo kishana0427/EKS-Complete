@@ -70,7 +70,13 @@ eksctl create cluster \
   --nodes-max 3 \
   --managed
 
-
+Step | Tool | Command Example
+Install AWS CLI | aws | aws configure
+Install kubectl | kubectl | kubectl get svc
+Install eksctl | eksctl | eksctl create cluster
+Create Cluster | eksctl | eksctl create cluster --name ...
+Verify | kubectl | kubectl get nodes
+Delete | eksctl | eksctl delete cluster --name ...
   
 ======================OR=======================
 
