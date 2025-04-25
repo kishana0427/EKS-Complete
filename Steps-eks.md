@@ -60,6 +60,17 @@ eksctl version
 
 ## Create EKS CLUSTER
 
+eksctl create cluster \
+  --name my-eks-cluster \
+  --region us-west-2 \
+  --nodegroup-name linux-nodes \
+  --node-type t3.medium \
+  --nodes 2 \
+  --nodes-min 1 \
+  --nodes-max 3 \
+  --managed
+======================OR=======================
+
 ```bash
 eksctl create cluster --name=my-eks22 \
                       --region=ap-south-1 \
