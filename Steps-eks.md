@@ -69,6 +69,9 @@ eksctl create cluster \
   --nodes-min 1 \
   --nodes-max 3 \
   --managed
+
+
+  
 ======================OR=======================
 
 ```bash
